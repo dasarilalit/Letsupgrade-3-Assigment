@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+<body>
+    <div class="mainbody">
+        <div class="question1">
+            <!--HEADING-->
+            <h1>Question1</h1>
+            <!--SEARCH BOX-->
+            <div class='search'>
+                <input 
+                    type='text' 
+                    id="searchname" 
+                    placeholder="Search" 
+                    onkeyup="search()" 
+                    autocomplete="off"
+                />
+            </div>
+            <!--TABLE-->
+            <table border="1" class="table" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Srno</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>height</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
